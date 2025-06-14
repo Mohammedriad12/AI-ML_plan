@@ -1,349 +1,306 @@
-# 8-Week AI/ML & AWS Study Plan for IT Students
-
-## Overview
-- Languages: Python (primary for AI/ML), C++ (for algorithms/DS)
-- Cloud: AWS basics & hands-on
-- Focus: Coding, reading, watching, writing, and project work
-- Goal: Build strong foundations and hands-on confidence in AI/ML and AWS
+# 8-Week AI/ML & AWS Daily Study Plan
 
 ---
 
 ## Week 1: Python for Data Science & AWS Basics
 
-### Daily Routine
-- 1 hour Python coding
-- 30 min theory/reading
-- 30 min AWS hands-on or video
+### Day 1 (Mon)
+- [x] Read: Python basics (functions, lists, dicts) on W3Schools/RealPython
+- [ ] Code: Practice 5 small Python scripts (loops, lists)
+- [ ] AWS: Sign up for AWS Free Tier & explore AWS Console
+- [ ] Write: Log what you learned about Python basics in your notes repo
 
-### Tasks
+### Day 2 (Tue)
+- [ ] Read: NumPy intro (official docs/DataCamp)
+- [ ] Code: Array creation and basic operations (add, multiply, slice)
+- [ ] Watch: AWS Core Services overview (YouTube)
+- [ ] Write: Notes on NumPy arrays and AWS services
 
-**Mon**  
-- Read: Python basics (functions, lists, dicts) [W3Schools or RealPython]  
-- Code: Simple scripts (loops, list comps)  
-- AWS: Create a free AWS account; explore AWS Console
+### Day 3 (Wed)
+- [ ] Read: pandas intro (official docs/Kaggle)
+- [ ] Code: Load CSV, clean data (drop NaN, filter rows)
+- [ ] AWS: Create S3 bucket, upload/download a file via web
+- [ ] Write: Step-by-step S3 usage guide
 
-**Tue**  
-- Read: NumPy intro [official docs or DataCamp]  
-- Code: Array manipulations  
-- Watch: AWS Core Services overview (YouTube/AWS YouTube)
+### Day 4 (Thu)
+- [ ] Watch: Python for Data Science crash course (YouTube - Corey Schafer or freeCodeCamp)
+- [ ] Code: Data cleaning mini project (combine NumPy & pandas)
+- [ ] AWS: Launch EC2 Free Tier instance, SSH in, document steps
+- [ ] Write: Short blog/notes on EC2 launch and SSH experience
 
-**Wed**  
-- Read: pandas intro [official docs or Kaggle]  
-- Code: DataFrames (import, clean, filter)  
-- AWS: S3 basics — create a bucket, upload/download a file
+### Day 5 (Fri)
+- [ ] Read: Jupyter Notebooks basics (official docs)
+- [ ] Code: Convert previous scripts to Jupyter Notebook
+- [ ] AWS: Explore IAM, create a user, assign permissions
+- [ ] Write: Notebook summary and IAM notes
 
-**Thu**  
-- Watch: Python for Data Science crash course (YouTube, Corey Schafer or freeCodeCamp)  
-- Code: Mini data cleaning project  
-- AWS: EC2 intro — launch a free-tier instance, SSH in
+### Day 6 (Sat)
+- [ ] Code: Create and analyze a mock dataset (NumPy+pandas)
+- [ ] Write: Weekly recap blog (what you learned, challenges)
+- [ ] AWS: Try AWS Cloud9 (browser IDE), create a "hello world" Python file
 
-**Fri**  
-- Read: Jupyter Notebooks usage  
-- Code: Write all scripts in Jupyter  
-- AWS: IAM basics — create a user, explore permissions
-
-**Sat**  
-- Code: Combine NumPy & pandas for a mock dataset  
-- Write: Blog (on GitHub repo) about what you learned  
-- AWS: Try AWS Cloud9 (browser IDE)
-
-**Sun**  
-- Review: All code/scripts  
-- Write: Summary notes  
-- Rest or catch up
+### Day 7 (Sun)
+- [ ] Review: All week’s code/scripts; organize files in GitHub
+- [ ] Write: Summary notes for Week 1
+- [ ] REST or catch up
 
 ---
 
 ## Week 2: Math for ML & AWS Data Services
 
-### Daily Routine
-- 40 min math/video, 40 min coding, 40 min AWS
+### Day 8 (Mon)
+- [ ] Read: Linear algebra basics (Khan Academy/3Blue1Brown)
+- [ ] Code: Vectors and matrices in NumPy
+- [ ] AWS: Launch RDS Free Tier DB, connect from Python (use `psycopg2` or `mysql.connector`)
+- [ ] Write: Step-by-step RDS connection guide
 
-### Tasks
+### Day 9 (Tue)
+- [ ] Watch: Probability for ML (StatQuest/3Blue1Brown)
+- [ ] Code: Simulate dice rolls, calculate probabilities in Python
+- [ ] AWS: Explore DynamoDB (create a table, add an item)
+- [ ] Write: DynamoDB vs RDS summary
 
-**Mon**  
-- Read: Linear algebra basics [Khan Academy or 3Blue1Brown]  
-- Code: Vectors/matrix ops with NumPy  
-- AWS: RDS basics — launch free-tier DB, connect from Python
+### Day 10 (Wed)
+- [ ] Read: Statistics (mean, median, std, correlation)
+- [ ] Code: Calculate stats on small dataset with pandas
+- [ ] AWS: Lambda basics (create basic Python Lambda function in AWS Console)
+- [ ] Write: Lambda function purpose and use-cases
 
-**Tue**  
-- Watch: Probability for ML (StatQuest or 3Blue1Brown)  
-- Code: Simulate dice rolls, probabilities  
-- AWS: DynamoDB intro (NoSQL basics)
+### Day 11 (Thu)
+- [ ] Watch: "What is Machine Learning?" (Andrew Ng/Coursera)
+- [ ] Write: Your own summary of ML concepts so far
+- [ ] AWS: SageMaker overview – launch a notebook instance
 
-**Wed**  
-- Read: Statistics (mean, median, std, correlation)  
-- Code: Calculate stats on a dataset  
-- AWS: Lambda basics — write a basic Python Lambda function
+### Day 12 (Fri)
+- [ ] Code: Data pipeline (load, clean, analyze) in Python
+- [ ] Write: Document pipeline and dataset used (README in repo)
+- [ ] AWS: Set up a Lambda triggered by S3 upload
 
-**Thu**  
-- Watch: "What is Machine Learning?" (Andrew Ng, Coursera intro video)  
-- Write: Your understanding of ML in your own words  
-- AWS: Explore AWS SageMaker overview
+### Day 13 (Sat)
+- [ ] Review: Math and code exercises
+- [ ] AWS: Explore free-tier limits, check billing dashboard
+- [ ] Write: AWS week recap
 
-**Fri**  
-- Code: Build a simple data pipeline (load, clean, analyze)  
-- Write: Document pipeline in GitHub  
-- AWS: Deploy a Lambda triggered by S3
-
-**Sat**  
-- Review: Math concepts, code exercises  
-- AWS: Explore AWS free-tier limits, billing dashboard  
-- Write: Notes/blog on AWS week
-
-**Sun**  
-- Catch up or rest  
-- Organize repos and notes
+### Day 14 (Sun)
+- [ ] Catch up or rest
+- [ ] Organize code, notes, and AWS screenshots in GitHub
 
 ---
 
 ## Week 3: Core ML Concepts & AWS SageMaker
 
-### Daily Routine
-- 1 hour ML, 1 hour coding, 30 min AWS
+### Day 15 (Mon)
+- [ ] Read: ML basics (supervised/unsupervised, features, labels)
+- [ ] Watch: Andrew Ng ML course Week 1
+- [ ] AWS: Open your SageMaker notebook, explore sample notebooks
 
-### Tasks
+### Day 16 (Tue)
+- [ ] Code: Load a dataset (scikit-learn), split into train/test
+- [ ] Watch: Train/Test Split and Cross Validation (StatQuest)
+- [ ] AWS: Run your split code in SageMaker notebook
 
-**Mon**  
-- Read: ML basics (supervised/unsupervised, features, labels)  
-- Watch: Andrew Ng’s ML course Week 1 (Coursera, free)  
-- AWS: SageMaker notebook instance — explore UI
+### Day 17 (Wed)
+- [ ] Read: Regression vs Classification
+- [ ] Code: Linear regression on a dataset (scikit-learn)
+- [ ] AWS: Save model output to S3
 
-**Tue**  
-- Code: scikit-learn — load and split a dataset  
-- Watch: "Train/Test Split and Cross Validation" (StatQuest)  
-- AWS: Run a basic SageMaker notebook
+### Day 18 (Thu)
+- [ ] Watch: Decision Trees & KNN (StatQuest)
+- [ ] Code: KNN on Iris dataset (scikit-learn)
+- [ ] AWS: Try SageMaker built-in algorithms
 
-**Wed**  
-- Read: Regression vs Classification  
-- Code: Linear regression with scikit-learn  
-- AWS: Store model output in S3
+### Day 19 (Fri)
+- [ ] Project: Mini ML project (Iris/Titanic dataset)
+- [ ] Write: Document code, results, and learnings in repo
+- [ ] AWS: Document your SageMaker workflow as a step-by-step guide
 
-**Thu**  
-- Watch: Decision Trees & KNN (StatQuest)  
-- Code: Try KNN on Iris dataset  
-- AWS: Explore SageMaker built-in algorithms
+### Day 20 (Sat)
+- [ ] Review: ML concepts, update notes
+- [ ] Write: Week summary blog/post
+- [ ] AWS: Check for unused resources, stop/delete as needed
 
-**Fri**  
-- Project: Mini ML project (Iris or Titanic dataset)  
-- Write: Document process, results, and code on GitHub  
-- AWS: Document SageMaker workflow
-
-**Sat**  
-- Review: ML concepts  
-- Write: Week summary  
-- AWS: Cost management tip — stop/cleanup unused resources
-
-**Sun**  
-- Rest or catch up
+### Day 21 (Sun)
+- [ ] Rest or catch up
 
 ---
 
 ## Week 4: Algorithms, LeetCode & Python/C++ Integration
 
-### Daily Routine
-- 30 min algorithms, 1 hour LeetCode/code, 30 min AWS
+### Day 22 (Mon)
+- [ ] Read: Data structures overview (arrays, stacks, queues, trees)
+- [ ] Code: Implement stack/queue in Python and C++
+- [ ] AWS: Review IAM policies, try setting up a policy for a user
 
-### Tasks
+### Day 23 (Tue)
+- [ ] LeetCode: 2 easy/medium array problems (alternate C++/Python)
+- [ ] Watch: LeetCode explanations for those problems
+- [ ] AWS: Use boto3 to access S3 from Python, upload/download file
 
-**Mon**  
-- Read: Data structures overview (arrays, stacks, queues, trees)  
-- Code: Implement stack/queue in C++ and Python  
-- AWS: Review IAM and permission boundaries
+### Day 24 (Wed)
+- [ ] Read: Sorting/searching algorithms
+- [ ] Code: Implement bubble/merge sort in Python and C++
+- [ ] AWS: Automate S3 upload/download with Python script
 
-**Tue**  
-- LeetCode: Easy/medium array problems (alternate C++/Python)  
-- Watch: LeetCode video explanations  
-- AWS: S3 programmatic access with boto3
+### Day 25 (Thu)
+- [ ] LeetCode: 2 string/hash problems
+- [ ] Write: Notes on patterns you observe
+- [ ] AWS: Explore CloudWatch logs for S3/EC2
 
-**Wed**  
-- Read: Sorting/searching algorithms  
-- Code: Implement bubble/merge sort in both languages  
-- AWS: Automate S3 upload/download with Python script
+### Day 26 (Fri)
+- [ ] LeetCode: 2 tree/graph problems (BFS/DFS)
+- [ ] Code: BFS/DFS in both languages
+- [ ] AWS: Set up CloudWatch alarm for a resource
 
-**Thu**  
-- LeetCode: String and hashing problems  
-- Code: Write notes on patterns you observe  
-- AWS: Explore CloudWatch logs
+### Day 27 (Sat)
+- [ ] Write: Weekly algorithms summary and common patterns
+- [ ] Organize: All code and notes in repo
+- [ ] AWS: Automate EC2 start/stop with Python script
 
-**Fri**  
-- LeetCode: Tree/graph basics  
-- Code: BFS/DFS in C++ and Python  
-- AWS: Monitor a resource with CloudWatch
-
-**Sat**  
-- Write: Weekly summary  
-- Organize: Algorithms notes in repo  
-- AWS: Project — automate basic AWS workflow (EC2 start/stop)
-
-**Sun**  
-- Rest, review, or catch up
+### Day 28 (Sun)
+- [ ] Rest, review, or catch up
 
 ---
 
 ## Week 5: Deep Learning Fundamentals & AWS Deployment
 
-### Daily Routine
-- 1 hour DL, 1 hour coding, 30 min AWS
+### Day 29 (Mon)
+- [ ] Read: Neural network basics (perceptron, activation functions)
+- [ ] Watch: 3Blue1Brown Neural Networks video
+- [ ] AWS: Deploy a static website on S3
 
-### Tasks
+### Day 30 (Tue)
+- [ ] Code: Perceptron in Python (from scratch)
+- [ ] Watch: PyTorch or TensorFlow beginner tutorial
+- [ ] AWS: Explore Elastic Beanstalk, deploy "hello world" app
 
-**Mon**  
-- Read: Neural networks basics (perceptron, activation functions)  
-- Watch: 3Blue1Brown Neural Networks  
-- AWS: Deploy a static website on S3
+### Day 31 (Wed)
+- [ ] Code: Simple feedforward NN (Keras or PyTorch) for MNIST
+- [ ] AWS: Deploy a Flask app to Elastic Beanstalk
 
-**Tue**  
-- Code: Implement a perceptron in Python (from scratch)  
-- Watch: PyTorch or TensorFlow intro (official docs/YouTube)  
-- AWS: Explore AWS Elastic Beanstalk
+### Day 32 (Thu)
+- [ ] Read: Overfitting, regularization, dropout
+- [ ] Code: Add dropout to NN; compare results
+- [ ] AWS: Assign IAM role to EC2/Beanstalk
 
-**Wed**  
-- Code: Build a simple feedforward NN (Keras or PyTorch)  
-- Experiment: Train on MNIST dataset  
-- AWS: Deploy a Flask app to Elastic Beanstalk
+### Day 33 (Fri)
+- [ ] Project: Mini DL project (digit recognizer/image classifier)
+- [ ] Write: Project documentation (setup, results, next steps) in repo
+- [ ] AWS: Deploy model to SageMaker endpoint
 
-**Thu**  
-- Read: Overfitting, regularization, dropout  
-- Code: Add dropout to your NN  
-- AWS: Set up an IAM role for EC2/Beanstalk
+### Day 34 (Sat)
+- [ ] Review: Deep learning and AWS deployment steps
+- [ ] Write: Blog about your first deep learning deployment experience
+- [ ] AWS: Clean up unused AWS resources
 
-**Fri**  
-- Project: Mini DL project (digit recognizer, simple image classifier)  
-- Write: Document project on GitHub  
-- AWS: Try deploying a model to SageMaker endpoint
-
-**Sat**  
-- Review: DL and AWS deployment steps  
-- Write: Blog about your first DL project  
-- Clean up AWS resources
-
-**Sun**  
-- Rest or catch up
+### Day 35 (Sun)
+- [ ] Rest or catch up
 
 ---
 
 ## Week 6: Real-World ML Project & AWS Integration
 
-### Daily Routine
-- 1.5 hours project, 1 hour AWS, 30 min writing
+### Day 36 (Mon)
+- [ ] Project: Pick a dataset (Kaggle/UCI/AWS Open Data)
+- [ ] Plan project (problem statement, goals, deliverables)
+- [ ] AWS: Store dataset on S3
 
-### Tasks
+### Day 37 (Tue)
+- [ ] Code: Data cleaning and exploration (EDA)
+- [ ] AWS: Launch SageMaker notebook for the project
 
-**Mon**  
-- Project: Choose a dataset (Kaggle, UCI repo, or AWS Open Data)  
-- Plan: Problem statement, goals, deliverables  
-- AWS: Store dataset on S3
+### Day 38 (Wed)
+- [ ] Code: Feature engineering, pick model(s)
+- [ ] AWS: Try SageMaker built-in algorithms
 
-**Tue**  
-- Code: Data cleaning, EDA (exploratory data analysis)  
-- AWS: Launch a SageMaker notebook for the project
+### Day 39 (Thu)
+- [ ] Code: Train, validate, tune model
+- [ ] AWS: Save model artifacts to S3
 
-**Wed**  
-- Code: Feature engineering, model selection  
-- AWS: Try training with SageMaker built-in algorithms
+### Day 40 (Fri)
+- [ ] Code: Evaluate model, calculate accuracy/recall/F1
+- [ ] AWS: Deploy model as a SageMaker endpoint
 
-**Thu**  
-- Code: Train, validate, and tune your model  
-- AWS: Save model artifacts to S3
+### Day 41 (Sat)
+- [ ] Write: Project report (README with problem, code, results, what you learned)
+- [ ] AWS: Test endpoint with sample client script
 
-**Fri**  
-- Code: Evaluate model, calculate metrics  
-- AWS: Deploy model as a SageMaker endpoint
-
-**Sat**  
-- Write: Complete project report (GitHub README)  
-- AWS: Test endpoint with a simple client script
-
-**Sun**  
-- Rest or catch up  
-- Prepare a short presentation or blog post
+### Day 42 (Sun)
+- [ ] Rest or catch up
+- [ ] Prepare a short presentation or blog post about your project
 
 ---
 
 ## Week 7: Model Evaluation, Testing, and DevOps
 
-### Daily Routine
-- 1 hour testing/CI, 1 hour cloud, 30 min documentation
+### Day 43 (Mon)
+- [ ] Read: Model metrics (accuracy, precision, recall, F1)
+- [ ] Code: Script to calculate and log metrics for your model
+- [ ] AWS: Explore AWS CodePipeline
 
-### Tasks
+### Day 44 (Tue)
+- [ ] Study: Unit testing in Python (pytest)
+- [ ] Code: Write tests for your ML code
+- [ ] AWS: Set up CI/CD pipeline (CodeBuild/CodePipeline)
 
-**Mon**  
-- Read: Model evaluation metrics (accuracy, precision, recall, F1)  
-- Code: Write evaluation scripts for your project  
-- AWS: Explore AWS CodePipeline basics
+### Day 45 (Wed)
+- [ ] Read: Docker basics (docker.com, freeCodeCamp)
+- [ ] Code: Dockerize a simple ML app
+- [ ] AWS: ECS (Elastic Container Service) intro
 
-**Tue**  
-- Study: Unit testing in Python (pytest)  
-- Code: Write tests for data and ML code  
-- AWS: Set up a simple CI/CD pipeline for a Python app (CodeBuild/CodePipeline)
+### Day 46 (Thu)
+- [ ] DevOps: Automate deployment with GitHub Actions
+- [ ] AWS: Deploy Docker container to ECS Fargate
 
-**Wed**  
-- Study: Docker basics  
-- Code: Dockerize a simple ML app  
-- AWS: ECS (Elastic Container Service) intro
+### Day 47 (Fri)
+- [ ] Write: Document your DevOps workflow (Markdown in repo)
+- [ ] AWS: Monitor deployments, review logs
 
-**Thu**  
-- DevOps: Automate deployment with GitHub Actions  
-- AWS: Deploy Docker container to ECS Fargate
+### Day 48 (Sat)
+- [ ] Review: Testing and DevOps concepts
+- [ ] Write: Blog about deploying ML projects with AWS/DevOps
 
-**Fri**  
-- Write: Document your DevOps workflow  
-- AWS: Monitor deployments, check logs
-
-**Sat**  
-- Review: Testing and DevOps concepts  
-- Write: Blog about ML DevOps experience
-
-**Sun**  
-- Rest or catch up
+### Day 49 (Sun)
+- [ ] Rest or catch up
 
 ---
 
 ## Week 8: Advanced Topics, Career Prep, and Portfolio
 
-### Daily Routine
-- 1 hour advanced study, 1 hour portfolio, 30 min career prep
+### Day 50 (Mon)
+- [ ] Study: Start NLP or Computer Vision (choose one)
+- [ ] Code: Try text classification or image recognition mini project
 
-### Tasks
+### Day 51 (Tue)
+- [ ] Read: Cloud security best practices (AWS whitepapers/summary)
+- [ ] Write: Security checklist for your cloud projects
 
-**Mon**  
-- Study: Intro to NLP or Computer Vision (choose one)  
-- Code: Try a simple NLP or CV model (e.g., text classification or image recognition)
+### Day 52 (Wed)
+- [ ] Portfolio: Polish READMEs, add screenshots/demo links
+- [ ] Deploy: One project as a live demo (if possible)
 
-**Tue**  
-- Read: Cloud security best practices (AWS whitepapers)  
-- Write: Security notes for your cloud projects
+### Day 53 (Thu)
+- [ ] Career: Update LinkedIn, GitHub profile, and resume
+- [ ] Write: “What I learned in 2 months” blog post
 
-**Wed**  
-- Portfolio: Polish project READMEs, add screenshots and demo links  
-- Deploy: One project as a portfolio piece (live demo if possible)
+### Day 54 (Fri)
+- [ ] Practice: Mock interviews (behavioral/technical, Pramp/Interviewing.io)
+- [ ] Network: Connect with professionals on LinkedIn/Kaggle/GitHub
 
-**Thu**  
-- Career: Update LinkedIn, GitHub profile, and resume  
-- Write: “What I learned in 2 months” blog post
+### Day 55 (Sat)
+- [ ] Review: All work, fill in gaps
+- [ ] Write: Final week summary
 
-**Fri**  
-- Practice: Mock interviews (behavioral and technical, use Pramp or Interviewing.io)  
-- Network: Connect with professionals on LinkedIn, Kaggle, GitHub
-
-**Sat**  
-- Review: All work, fill in gaps  
-- Write: Final week summary
-
-**Sun**  
-- Rest and celebrate your progress!
+### Day 56 (Sun)
+- [ ] Rest and celebrate your progress!
 
 ---
 
-## Additional Tips
-
-- Consistency is key: study and code daily, even if just 30 minutes
-- Use your GitHub repos to document everything (notebooks, code, notes, blogs)
-- Don’t forget to clean up unused AWS resources to avoid charges
-- Engage with the community: join Kaggle, post on LinkedIn, ask questions
-- Save useful links and resources in a Markdown file for future reference
+## Tips
+- Check off each task as you complete it.
+- Write everything you learn and build in your GitHub repo, including code, notes, and blogs.
+- Don’t forget to clean up AWS resources!
+- Take breaks and have fun learning.
 
 ---
 
-Happy coding and learning! 🚀
+Good luck on your journey! 🚀
