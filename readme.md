@@ -1,4 +1,4 @@
-# 8-Week AI/ML & Data Science Path (Python + C++, Project-based, No AWS)
+# 8-Week AI/ML & Data Science Path (Python + C++, Project-based)
 
 ## Overview
 
