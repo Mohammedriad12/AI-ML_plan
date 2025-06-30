@@ -17,12 +17,12 @@
 - [x]  Write: Log what you learned about Python basics in your notes repo
 
 **Day 2 (Tue)**
-- [ ]  Read: NumPy intro (official docs/DataCamp)
-- [ ]  Code: Array creation and basic operations (add, multiply, slice)
-- [ ]  Write: Notes on NumPy arrays
+- [x]  Read: NumPy intro (official docs/DataCamp)
+- [x]  Code: Array creation and basic operations (add, multiply, slice)
+- [x]  Write: Notes on NumPy arrays
 
 **Day 3 (Wed)**
-- [ ]  Read: pandas intro (official docs/Kaggle)
+- [x]  Read: pandas intro (official docs/Kaggle)
 - [ ]  Code: Load CSV, clean data (drop NaN, filter rows)
 - [ ]  Write: Step-by-step pandas usage guide
 
